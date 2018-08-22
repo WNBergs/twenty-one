@@ -73,8 +73,17 @@ a.c-message__sender_link { color: var(--text) !important; }
 /** Message input area border. */
 #msg_input { background: var(--background-special); }
 
+/** Message input area border. */
+#msg_input { color: var(--text); }
+
 /** Upload File button. */
 .file_upload_btn { background: var(--background-special) !important; }
+
+/** Little bottom-right notification text. */
+.p-notification_bar__section--right { color: var(--text); }
+
+/** Code blocks...? */
+code { background-color: var(--background-dark); }
 
 /*************** Tags and Badges ***************/
 
