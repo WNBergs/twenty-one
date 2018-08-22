@@ -44,11 +44,15 @@ a.c-message__sender_link { color: var(--text) !important; }
 /** Color of links back to quoted/attached messages. */
 .c-message_attachment__author_name { color: var(--text-dark) !important; }
 
-/** Message input area at the bottom bar. */
-#footer { background: var(--background-light)}
+/********** Header **********/
 
 /** Channel header at the top of the main chat view. */
 .channel_header { background: var(--background-light); }
+
+/********** Footer **********/
+
+/** Message input area at the bottom bar. */
+#footer { background: var(--background-light)}
 
 /********** Tags **********/
 
