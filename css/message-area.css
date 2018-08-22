@@ -7,7 +7,7 @@ div.c-message:hover { background-color: var(--background) !important; }
 /** Highlight hovered messages. */
 div.c-message.c-message--light.c-message--hover {
     /** Makes the timestamp slightly lighter. */
-    color:            var(--text-light) !important;
+    color:            var(--text-white) !important;
     background-color: var(--background-light) !important;
 }
 
@@ -33,7 +33,7 @@ a.c-message__sender_link { color: var(--text) !important; }
 .ql-editor { background: var(--background-dark); }
 
 /** Message placeholder text color. */
-.ql-placeholder { color: var(--text-light) !important; }
+.ql-placeholder { color: var(--text-white) !important; }
 
 /** Top divider line. */
 .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before { background: var(--background-light) !important; }
@@ -51,8 +51,4 @@ a.c-message__sender_link { color: var(--text) !important; }
 }
 
 /** Text color for quoted messages and file attachments */
-.c-message_attachment__text { color: var(--text) !important; }
-
-/** Text color for quoted messages and file attachments */
-.c-message_attachment { color: var(--text-light) !important; }
-
+.c-message_attachment__text { color: var(--text-light) !important; }
