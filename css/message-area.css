@@ -46,7 +46,7 @@ a.c-message__sender_link { color: var(--text) !important; }
 .channel_header { background: var(--background-light); }
 
 /** Background color for the channel topic. */
-.channel_topic { background: var(--background-light); }
+#edit_topic_inner:not(.unable_to_post):before { background: var(--background-light); }
 
 /** Message entry area. */
 .ql-editor { background: var(--background-dark); }
