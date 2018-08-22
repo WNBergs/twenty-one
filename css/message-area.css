@@ -32,16 +32,21 @@ a.c-message__sender_link { color: var(--text) !important; }
     border:     1px solid var(--background-light);
 }
 
+/*************** Quoted/Attached Messages ***************/
+
 /** Text color for quoted messages and file attachments */
 .c-message_attachment__text { color: var(--text-dark) !important; }
 
 /** Color of links back to quoted/attached messages. */
 .c-message_attachment__author_name { color: var(--text-dark) !important; }
 
-/********** Header **********/
+/*************** Header ***************/
 
 /** Channel header at the top of the main chat view. */
 .channel_header { background: var(--background-light); }
+
+/** Background color for the channel topic. */
+.channel_topic { background: var(--background-light); }
 
 /** Message entry area. */
 .ql-editor { background: var(--background-dark); }
@@ -49,12 +54,18 @@ a.c-message__sender_link { color: var(--text) !important; }
 /** Message placeholder text color. */
 .ql-placeholder { color: var(--text-light) !important; }
 
-/********** Footer **********/
+/** Search bar background. */
+.search_form { background: var(--background-dark); }
+
+/** Search bar background. */
+.search_input_wrapper { background: var(--background); }
+
+/*************** Footer ***************/
 
 /** Message input area at the bottom bar. */
 #footer { background: var(--background-light)}
 
-/********** Tags **********/
+/*************** Tags ***************/
 
 /** Main chat window, @tag background. */
 .c-member_slug--link { background: var(--text-dark); }
