@@ -7,46 +7,49 @@ div.c-message:hover { background-color: var(--background) !important; }
 /** Highlight hovered messages. */
 div.c-message.c-message--light.c-message--hover {
     /** Makes the timestamp slightly lighter. */
-    color: var(--text-bright) !important;
-    background-color: var(--background-elevated) !important;
+    color:            var(--text-light) !important;
+    background-color: var(--background-light) !important;
 }
 
 /** Main chat window, normal text. */
-span.c-message__body { color: var(--main-chat-text) !important; }
+span.c-message__body { color: var(--text) !important; }
 
 /*!** Main chat window, link to message sender. *!*/
-a.c-message__sender_link { color: var(--main-chat-text) !important; }
+a.c-message__sender_link { color: var(--text) !important; }
 
 /** Main chat window, @tag background. */
-.c-member_slug--link { background: var(--background-elevated); }
+.c-member_slug--link { background: var(--background-light); }
 
 /** Main chat window, @tag background, hover directly over tag. */
-.c-member_slug--link:hover { background: var(--background-sunken); }
+.c-member_slug--link:hover { background: var(--background-dark); }
 
 /** Main chat window, secondary @tag background. */
-.c-deprecated_button--link { background: var(--background-elevated); }
+.c-deprecated_button--link { background: var(--background-light); }
 
 /** Main chat window, secondary @tag background, hover directly over tag. */
-.c-deprecated_button--link:hover { background: var(--background-sunken); }
+.c-deprecated_button--link:hover { background: var(--background-dark); }
 
 /** Message entry area. */
-.ql-editor { background: var(--background-sunken); }
+.ql-editor { background: var(--background-dark); }
 
 /** Message placeholder text color. */
-.ql-placeholder { color: var(--text-bright) !important; }
+.ql-placeholder { color: var(--text-light) !important; }
 
 /** Top divider line. */
-.c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before { background: var(--background-elevated) !important; }
+.c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before { background: var(--background-light) !important; }
 
 /** Top divider pill thingy?  It tells you what day you're looking at in the chat history, top of the window. */
 .c-message_list__day_divider__label__pill {
-    background: var(--background-elevated);
-    color: var(--text);
+    background: var(--background-light);
+    color:      var(--test-special);
 }
 
 /** Background for message reactions. */
 .c-reaction {
-    background: var(--background-sunken);
-    border: 1px solid var(--background-elevated);
+    background: var(--background-dark);
+    border:     1px solid var(--background-light);
 }
+
+/** Text color for quoted messages */
+.c-message_attachment { color: var(--text) }
 
