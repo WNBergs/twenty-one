@@ -71,6 +71,8 @@ a.c-message__sender_link { color: var(--text) !important; }
 /** Message input area border. */
 #msg_input { background: var(--background-special); }
 
+.file_upload_btn { background: var(--background-special); }
+
 /*************** Tags ***************/
 
 /** Main chat window, @tag background. */
