@@ -51,7 +51,7 @@ a.c-message__sender_link { color: var(--text) !important; }
 }
 
 /** Text color for quoted messages and file attachments */
-.c-message_attachment__text { color: var(--text-dark) !important; }
+.c-message_attachment__text { color: var(--text-special) !important; }
 
 /** Color of links back to quoted/attached messages. */
 .c-message_attachment__author_name { color: var(--text-special) !important; }
