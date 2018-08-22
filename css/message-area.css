@@ -97,7 +97,7 @@ code { background-color: var(--background-dark); }
 .c-member_slug--link { color: var(--text-special) !important; }
 
 /** Main chat window, @tag background, hover directly over tag. */
-.c-member_slug--link:hover { background: var(--background); }
+.c-member_slug--link:hover { background: var(--background-tag-hover); }
 
 /** Main chat window, secondary @tag colors. */
 .c-mrkdwn__user_group--link { color: var(--text-special) !important; }
@@ -106,4 +106,4 @@ code { background-color: var(--background-dark); }
 .c-deprecated_button--link { background: var(--background-tag); }
 
 /** Main chat window, secondary @tag background, hover directly over tag. */
-.c-deprecated_button--link:hover { background: var(--background); }
+.c-deprecated_button--link:hover { background: var(--background-tag-hover); }
