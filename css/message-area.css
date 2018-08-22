@@ -94,19 +94,19 @@ code { background-color: var(--background-dark); }
 .c-app_badge { background: var(--background-dark); }
 
 /** Main chat window, @tag background. */
-.c-member_slug--link { background: var(--background-dark); }
+.c-member_slug--link { background: var(--background-tag); }
 
 /** Main chat window, @tag color. */
 .c-member_slug--link { color: var(--text-special) !important; }
 
 /** Main chat window, @tag background, hover directly over tag. */
-.c-member_slug--link:hover { background: var(--background-special); }
+.c-member_slug--link:hover { background: var(--background); }
 
 /** Main chat window, secondary @tag colors. */
 .c-mrkdwn__user_group--link { color: var(--text-special) !important; }
 
 /** Main chat window, secondary @tag background. */
-.c-deprecated_button--link { background: var(--background-special); }
+.c-deprecated_button--link { background: var(--background-tag); }
 
 /** Main chat window, secondary @tag background, hover directly over tag. */
 .c-deprecated_button--link:hover { background: var(--background); }
