@@ -76,7 +76,10 @@ a.c-message__sender_link { color: var(--text) !important; }
 /** Upload File button. */
 .file_upload_btn { background: var(--background-special) !important; }
 
-/*************** Tags ***************/
+/*************** Tags and Badges ***************/
+
+/** Badge for "app" accounts */
+.c-app_badge { background: var(--background-dark); }
 
 /** Main chat window, @tag background. */
 .c-member_slug--link { background: var(--background-dark); }
