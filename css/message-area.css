@@ -21,7 +21,7 @@ a.c-message__sender_link { color: var(--text) !important; }
 .c-member_slug--link { background: var(--text-dark); }
 
 /** Main chat window, @tag colors. */
-.c-member_slug--link { color: var(--text-special); }
+.c-mrkdwn__user_group--link { color: var(--text-special) !important; }
 
 /** Main chat window, @tag background, hover directly over tag. */
 .c-member_slug--link:hover { background: var(--background-dark); }
