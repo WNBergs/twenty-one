@@ -44,7 +44,7 @@ a.c-message__sender_link { color: var(--text) !important; }
 .search_input_wrapper { background: var(--background); }
 
 /** Channel name text color. */
-.channel_name_container { color: var(--text-light) !important; }
+.channel_name { color: var(--text-light) !important; }
 
 /*************** Divider ***************/
 
