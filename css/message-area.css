@@ -44,6 +44,12 @@ a.c-message__sender_link { color: var(--text) !important; }
 /** Color of links back to quoted/attached messages. */
 .c-message_attachment__author_name { color: var(--text-dark) !important; }
 
+/** Message input area at the bottom bar. */
+#footer { background: var(--background-light)}
+
+/** Channel header at the top of the main chat view. */
+.channel_header { background: var(--background-light); }
+
 /********** Tags **********/
 
 /** Main chat window, @tag background. */
@@ -60,6 +66,3 @@ a.c-message__sender_link { color: var(--text) !important; }
 
 /** Main chat window, secondary @tag background, hover directly over tag. */
 .c-deprecated_button--link:hover { background: var(--background); }
-
-/** Message input area at the bottom bar. */
-#footer { background: var(--background-light)}
