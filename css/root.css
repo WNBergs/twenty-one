@@ -1,10 +1,11 @@
 /** Customizable colors! */
 :root {
-    --text:             #A9B7C6;
-    --text-dark:        #808080;
-    --text-light:       #ffffff;
-    --text-special:     #FFC66D;
-    --background:       #2B2B2B;
-    --background-light: #3c3f41;
-    --background-dark:  #0D293E;
+    --text:               #a9b7c6;
+    --text-dark:          #808080;
+    --text-light:         #ffffff;
+    --text-special:       #ffc66d;
+    --background:         #2b2b2b;
+    --background-light:   #3c3f41;
+    --background-dark:    #0d293e;
+    --background-special: #49473f;
 }
