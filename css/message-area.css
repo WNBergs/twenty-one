@@ -50,6 +50,9 @@ a.c-message__sender_link { color: var(--text) !important; }
     border:     1px solid var(--background-light);
 }
 
-/** Text color for quoted messages */
-.c-message_attachment { color: var(--text) }
+/** Text color for quoted messages and file attachments */
+.c-message_attachment__text { color: var(--text) !important; }
+
+/** Text color for quoted messages and file attachments */
+.c-message_attachment { color: var(--text) !important; }
 
