@@ -54,4 +54,4 @@ a.c-message__sender_link { color: var(--text) !important; }
 .c-message_attachment__text { color: var(--text-dark) !important; }
 
 /** Color of links back to quoted/attached messages. */
-.c-message_attachment__author a { color: var(--text-special) !important}
+.c-message_attachment__author_name { color: var(--text-special) !important; }
