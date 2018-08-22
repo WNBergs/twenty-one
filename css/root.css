@@ -1,8 +1,8 @@
 /** Customizable colors! */
 :root {
     --text:             #dfdfdf;
-    --text-light:       #afafaf;
-    --text-white:       #ffffff;
+    --text-dark:        #afafaf;
+    --text-light:       #ffffff;
     --test-special:     #A9B7C6;
     --background:       #2B2B2B;
     --background-light: #3c3f41;
