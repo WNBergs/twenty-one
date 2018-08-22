@@ -41,7 +41,7 @@ a.c-message__sender_link { color: var(--text) !important; }
 /** Top divider pill thingy?  It tells you what day you're looking at in the chat history, top of the window. */
 .c-message_list__day_divider__label__pill {
     background: var(--background-light);
-    color:      var(--test-special);
+    color:      var(--text-special);
 }
 
 /** Background for message reactions. */
@@ -52,3 +52,6 @@ a.c-message__sender_link { color: var(--text) !important; }
 
 /** Text color for quoted messages and file attachments */
 .c-message_attachment__text { color: var(--text-dark) !important; }
+
+/** Color of links back to quoted/attached messages. */
+.c-message_attachment__author a { color: var(--text-special) !important}
