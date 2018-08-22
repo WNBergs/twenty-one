@@ -1,0 +1,52 @@
+/** Main background */
+div.c-virtual_list__scroll_container { background-color: var(--background) !important; }
+
+/** Make hovered messages match background.  Maybe can be removed? */
+div.c-message:hover { background-color: var(--background) !important; }
+
+/** Highlight hovered messages. */
+div.c-message.c-message--light.c-message--hover {
+    /** Makes the timestamp slightly lighter. */
+    color: var(--text-bright) !important;
+    background-color: var(--background-elevated) !important;
+}
+
+/** Main chat window, normal text. */
+span.c-message__body { color: var(--main-chat-text) !important; }
+
+/*!** Main chat window, link to message sender. *!*/
+a.c-message__sender_link { color: var(--main-chat-text) !important; }
+
+/** Main chat window, @tag background. */
+.c-member_slug--link { background: var(--background-elevated); }
+
+/** Main chat window, @tag background, hover directly over tag. */
+.c-member_slug--link:hover { background: var(--background-sunken); }
+
+/** Main chat window, secondary @tag background. */
+.c-deprecated_button--link { background: var(--background-elevated); }
+
+/** Main chat window, secondary @tag background, hover directly over tag. */
+.c-deprecated_button--link:hover { background: var(--background-sunken); }
+
+/** Message entry area. */
+.ql-editor { background: var(--background-sunken); }
+
+/** Message placeholder text color. */
+.ql-placeholder { color: var(--text-bright) !important; }
+
+/** Top divider line. */
+.c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before { background: var(--background-elevated) !important; }
+
+/** Top divider pill thingy?  It tells you what day you're looking at in the chat history, top of the window. */
+.c-message_list__day_divider__label__pill {
+    background: var(--background-elevated);
+    color: var(--text);
+}
+
+/** Background for message reactions. */
+.c-reaction {
+    background: var(--background-sunken);
+    border: 1px solid var(--background-elevated);
+}
+

@@ -1,0 +1,10 @@
+/** Customizable colors! */
+:root {
+    --primary: #cccccc;
+    --text: #A9B7C6;
+    --background: #2B2B2B;
+    --background-elevated: #3c3f41;
+    --background-sunken: #25272a;
+    --main-chat-text: #afafaf;
+    --text-bright: #ffffff;
+}
