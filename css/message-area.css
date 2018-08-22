@@ -65,6 +65,9 @@ a.c-message__sender_link { color: var(--text) !important; }
 /** Message input area at the bottom bar. */
 #footer { background: var(--background-light)}
 
+/** Message input area border. */
+#msg_input { background: var(--background-special); }
+
 /*************** Tags ***************/
 
 /** Main chat window, @tag background. */
