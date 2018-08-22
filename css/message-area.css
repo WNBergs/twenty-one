@@ -18,7 +18,10 @@ span.c-message__body { color: var(--text) !important; }
 a.c-message__sender_link { color: var(--text) !important; }
 
 /** Main chat window, @tag background. */
-.c-member_slug--link { background: var(--background-light); }
+.c-member_slug--link { background: var(--text-dark); }
+
+/** Main chat window, @tag colors. */
+.c-member_slug--link { color: var(--text-special); }
 
 /** Main chat window, @tag background, hover directly over tag. */
 .c-member_slug--link:hover { background: var(--background-dark); }
