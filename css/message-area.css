@@ -97,7 +97,7 @@ code { background-color: var(--background-dark); }
 .c-member_slug--link { background: var(--background-dark); }
 
 /** Main chat window, @tag color. */
-.c-member_slug--link { color: var(--text-special); }
+.c-member_slug--link { color: var(--text-special) !important; }
 
 /** Main chat window, @tag background, hover directly over tag. */
 .c-member_slug--link:hover { background: var(--background-special); }
