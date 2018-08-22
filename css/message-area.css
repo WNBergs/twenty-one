@@ -76,10 +76,10 @@ a.c-message__sender_link { color: var(--text) !important; }
 /*************** Tags ***************/
 
 /** Main chat window, @tag background. */
-.c-member_slug--link { background: var(--text-dark); }
+.c-member_slug--link { background: var(--background-dark); }
 
 /** Main chat window, @tag background, hover directly over tag. */
-.c-member_slug--link:hover { background: var(--background-dark); }
+.c-member_slug--link:hover { background: var(--background-special); }
 
 /** Main chat window, secondary @tag colors. */
 .c-mrkdwn__user_group--link { color: var(--text-special) !important; }
