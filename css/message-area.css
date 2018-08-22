@@ -17,12 +17,6 @@ span.c-message__body { color: var(--text) !important; }
 /*!** Main chat window, link to message sender. *!*/
 a.c-message__sender_link { color: var(--text) !important; }
 
-/** Message entry area. */
-.ql-editor { background: var(--background-dark); }
-
-/** Message placeholder text color. */
-.ql-placeholder { color: var(--text-light) !important; }
-
 /** Top divider line. */
 .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before { background: var(--background-light) !important; }
 
@@ -48,6 +42,12 @@ a.c-message__sender_link { color: var(--text) !important; }
 
 /** Channel header at the top of the main chat view. */
 .channel_header { background: var(--background-light); }
+
+/** Message entry area. */
+.ql-editor { background: var(--background-dark); }
+
+/** Message placeholder text color. */
+.ql-placeholder { color: var(--text-light) !important; }
 
 /********** Footer **********/
 
