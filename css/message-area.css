@@ -49,11 +49,11 @@ a.c-message__sender_link { color: var(--text) !important; }
 /*************** Divider ***************/
 
 /** Top divider line. */
-.c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before { background: var(--background-light) !important; }
+.c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before { background: var(--background-dark) !important; }
 
 /** Top divider pill thingy?  It tells you what day you're looking at in the chat history, top of the window. */
 .c-message_list__day_divider__label__pill {
-    background: var(--background-light);
+    background: var(--background-special);
     color:      var(--text-dark);
 }
 
