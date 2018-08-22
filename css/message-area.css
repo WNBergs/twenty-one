@@ -73,6 +73,9 @@ a.c-message__sender_link { color: var(--text) !important; }
 /** Message input area border. */
 #msg_input { background: var(--background-special); }
 
+/** Message input area margins. */
+#msg_input { margin: 1rem 1rem 0; }
+
 /** Message input area border. */
 #msg_input { color: var(--text); }
 
