@@ -17,28 +17,11 @@ span.c-message__body { color: var(--text) !important; }
 /*!** Main chat window, link to message sender. *!*/
 a.c-message__sender_link { color: var(--text) !important; }
 
-/** Top divider line. */
-.c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before { background: var(--background-light) !important; }
-
-/** Top divider pill thingy?  It tells you what day you're looking at in the chat history, top of the window. */
-.c-message_list__day_divider__label__pill {
-    background: var(--background-light);
-    color:      var(--text-dark);
-}
-
 /** Background for message reactions. */
 .c-reaction {
     background: var(--background-dark);
     border:     1px solid var(--background-light);
 }
-
-/*************** Quoted/Attached Messages ***************/
-
-/** Text color for quoted messages and file attachments */
-.c-message_attachment__text { color: var(--text-dark) !important; }
-
-/** Color of links back to quoted/attached messages. */
-.c-message_attachment__author_name { color: var(--text-dark) !important; }
 
 /*************** Header ***************/
 
@@ -62,6 +45,25 @@ a.c-message__sender_link { color: var(--text) !important; }
 
 /** Channel name text color. */
 .channel_name_container { color: var(--text-light) !important; }
+
+/*************** Divider ***************/
+
+/** Top divider line. */
+.c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before { background: var(--background-light) !important; }
+
+/** Top divider pill thingy?  It tells you what day you're looking at in the chat history, top of the window. */
+.c-message_list__day_divider__label__pill {
+    background: var(--background-light);
+    color:      var(--text-dark);
+}
+
+/*************** Quoted/Attached Messages ***************/
+
+/** Text color for quoted messages and file attachments */
+.c-message_attachment__text { color: var(--text-dark) !important; }
+
+/** Color of links back to quoted/attached messages. */
+.c-message_attachment__author_name { color: var(--text-dark) !important; }
 
 /*************** Footer ***************/
 
