@@ -8,7 +8,7 @@ div.c-message:hover { background-color: var(--background) !important; }
 div.c-message.c-message--light.c-message--hover {
     /** Makes the timestamp slightly lighter. */
     color:            var(--text-light) !important;
-    background-color: var(--background-light) !important;
+    background-color: var(--background-special) !important;
 }
 
 /** Main chat window, normal text. */
