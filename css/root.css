@@ -12,4 +12,5 @@
     --background-special:   #49473f;
     --background-tag:       #6a8759;
     --background-tag-hover: #000000;
+    --divider-color:        var(--background-dark)
 }
