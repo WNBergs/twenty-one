@@ -1,7 +1,11 @@
 .c-scrollbar__hider {
-    background: var(--background-light)
+    background: var(--background-sidebar)
 }
 
 .p-channel_sidebar__jumper {
     background: var(--background-input)
+}
+
+#team_menu:after {
+    background: var(--background-sidebar)
 }

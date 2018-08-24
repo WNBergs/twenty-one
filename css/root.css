@@ -41,5 +41,8 @@ root {
     --background-tag:       var(--darcula-project-selected-background);
     --background-tag-hover: var(--darcula-string-text);
     --background-input:     var(--darcula-project-selected-background);
+    --background-sidebar:   var(--darcula-project-background);
+
+    /** Divider colors. */
     --divider-color:        var(--darcula-comment-text)
 }
