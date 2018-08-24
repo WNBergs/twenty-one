@@ -23,34 +23,35 @@ root {
     --darcula-project-background:          #3c3f41;
     --darcula-project-selected-background: #0d293e;
     --darcula-project-library-background:  #49473f;
+    --darcula-receiver-background:         #223c23;
 }
 
 /** Customizable colors. */
 :root {
     /** Text colors. */
-    --text:               var(--darcula-text);
-    --text-sender:        var(--darcula-comment-tag-text);
-    --text-link:          var(--darcula-string-text);
-    --text-dark:          var(--darcula-comment-text);
-    --text-light:         var(--darcula-number-text);
-    --text-special:       var(--darcula-field-text);
+    --text:                 var(--darcula-text);
+    --text-sender:          var(--darcula-keyword-text);
+    --text-link:            var(--darcula-string-text);
+    --text-dark:            var(--darcula-comment-text);
+    --text-light:           var(--darcula-number-text);
+    --text-special:         var(--darcula-field-text);
 
     /** Link colors. */
 
     /** Background colors. */
-    --background:         var(--darcula-editor-background);
-    --background-light:   var(--darcula-project-background);
-    --background-dark:    var(--darcula-project-selected-background);
-    --background-special: var(--darcula-gutter-background);
+    --background:           var(--darcula-editor-background);
+    --background-light:     var(--darcula-project-background);
+    --background-dark:      var(--darcula-project-selected-background);
+    --background-special:   var(--darcula-gutter-background);
     --background-tag:       var(--darcula-project-selected-background);
     --background-tag-hover: var(--darcula-string-text);
     --background-input:     var(--darcula-project-selected-background);
     --background-sidebar:   var(--darcula-project-background);
 
     /** Tag colors. */
-    --tag-background:       var(--darcula-project-selected-background);
+    --tag-background:       var(--darcula-receiver-background);
     --tag-background-hover: var(--darcula-project-library-background);
-    --tag-text:             var(--darcula-comment-tag-text);
+    --tag-text:             var(--darcula-keyword-text);
     --tag-text-hover:       var(--darcula-annotation-text);
 
     /** Divider colors. */
