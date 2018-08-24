@@ -48,7 +48,8 @@ root {
     --tag-text-hover:       var(--darcula-keyword-text);
 
     /** Divider colors. */
-    --divider-color:        var(--darcula-comment-text)
+    --divider-color:        var(--darcula-comment-text);
+    --divider-text:         var(--darcula-comment-text);
 
     /** Input colors. */
 }
