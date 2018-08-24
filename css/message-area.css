@@ -18,7 +18,7 @@ span.c-message__body { color: var(--text) !important; }
 span.c-message__body > a { color: var(--text-link) !important; }
 
 /*!** Main chat window, link to message sender. *!*/
-a.c-message__sender_link { color: var(--text) !important; }
+a.c-message__sender_link { color: var(--text-sender) !important; }
 
 /** Background for message reactions. */
 .c-reaction {
