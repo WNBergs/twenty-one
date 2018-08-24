@@ -30,8 +30,6 @@ root {
     --text-dark:            var(--darcula-comment-text);
     --text-light:           var(--darcula-number-text);
     --text-special:         var(--darcula-field-text);
-    --text-tag:             var(--darcula-comment-tag-text);
-    --text-tag-hover:       var(--darcula-keyword-text);
 
     /** Background colors. */
     --background:           var(--darcula-editor-background);
@@ -46,6 +44,8 @@ root {
     /** Tag colors. */
     --tag-background:       var(--darcula-project-selected-background);
     --tag-background-hover: var(--darcula-string-text);
+    --tag-text:             var(--darcula-comment-tag-text);
+    --tag-text-hover:       var(--darcula-keyword-text);
 
     /** Divider colors. */
     --divider-color:        var(--darcula-comment-text)
