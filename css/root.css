@@ -23,7 +23,7 @@ root {
     --darcula-project-selected-background: #0d293e;
 }
 
-/** Customizable colors! */
+/** Customizable colors. */
 :root {
     /** Text colors. */
     --text:                 var(--darcula-text);
@@ -43,6 +43,12 @@ root {
     --background-input:     var(--darcula-project-selected-background);
     --background-sidebar:   var(--darcula-project-background);
 
+    /** Tag colors. */
+    --tag-background:       var(--darcula-project-selected-background);
+    --tag-background-hover: var(--darcula-string-text);
+
     /** Divider colors. */
     --divider-color:        var(--darcula-comment-text)
+
+    /** Input colors. */
 }
