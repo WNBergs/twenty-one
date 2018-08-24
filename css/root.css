@@ -40,5 +40,5 @@ root {
     --background-special:   var(--darcula-gutter-background);
     --background-tag:       var(--darcula-project-selected-background);
     --background-tag-hover: var(--darcula-string-text);
-    --divider-color:        var(--darcula-number-text)
+    --divider-color:        var(--darcula-field-text)
 }
