@@ -53,7 +53,7 @@ a.c-message__sender_link { color: var(--text) !important; }
 
 /** Top divider pill thingy?  It tells you what day you're looking at in the chat history, top of the window. */
 .c-message_list__day_divider__label__pill {
-    background: var(--background-special);
+    background: var(--divider-color);
     color:      var(--text-dark);
 }
 
