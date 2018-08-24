@@ -38,7 +38,7 @@ root {
     --background-light:     var(--darcula-project-background);
     --background-dark:      var(--darcula-project-selected-background);
     --background-special:   var(--darcula-gutter-background);
-    --background-tag:       var(--darcula-string-text);
-    --background-tag-hover: var(--darcula-project-selected-background);
+    --background-tag:       var(--darcula-project-selected-background);
+    --background-tag-hover: var(--darcula-string-text);
     --divider-color:        var(--darcula-number-text)
 }
