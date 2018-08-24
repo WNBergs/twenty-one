@@ -49,8 +49,8 @@ root {
 
     /** Tag colors. */
     --tag-background:       var(--darcula-project-selected-background);
-    --tag-background-hover: var(--darcula-string-text);
-    --tag-text:             var(--darcula-keyword-text);
+    --tag-background-hover: var(--darcula-project-library-background);
+    --tag-text:             var(--darcula-comment-tag-text);
     --tag-text-hover:       var(--darcula-annotation-text);
 
     /** Divider colors. */
