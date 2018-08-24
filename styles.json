@@ -1,4 +1,5 @@
 [
     "css/root.css",
-    "css/message-area.css"
+    "css/message-area.css",
+    "css/channel-area.css"
 ]
