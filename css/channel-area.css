@@ -1,8 +1,5 @@
 /** Main sidebar background. */
-.c-scrollbar__hider { background: var(--background-sidebar); }
+.client_channels_list_container { background: var(--background-sidebar); }
 
 /** Input background for "jump to" text. */
 .p-channel_sidebar__jumper { background: var(--background-input) !important; }
-
-/** Weird top box thing that for some reason isn't styled along with the rest of the background. */
-#team_menu:after { background: var(--background-sidebar) !important; }
