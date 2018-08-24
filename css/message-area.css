@@ -26,6 +26,11 @@ a.c-message__sender_link { color: var(--text-sender) !important; }
     border:     1px solid var(--background-light);
 }
 
+/** "Header" at beginning of chat history. **/
+.p-message_pane__foreword__description {
+    color: var(--text-dark);
+}
+
 /*************** Header ***************/
 
 /** Channel header at the top of the main chat view. */
