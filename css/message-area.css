@@ -88,7 +88,7 @@ a.c-message__sender_link { color: var(--text) !important; }
 .p-notification_bar__section--right { color: var(--text); }
 
 /** Code blocks...? */
-code { background-color: var(--background-dark); }
+code { background-color: var(--background-input); }
 
 /*************** Tags and Badges ***************/
 

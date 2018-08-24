@@ -1,3 +1,7 @@
 .c-scrollbar__hider {
     background: var(--background-light)
 }
+
+.p-channel_sidebar__jumper {
+    background: var(--background-input)
+}
