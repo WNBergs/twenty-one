@@ -14,6 +14,9 @@ div.c-message.c-message--light.c-message--hover {
 /** Main chat window, normal text. */
 span.c-message__body { color: var(--text) !important; }
 
+/** Main chat window, links. */
+span.c-message__body > a { color: var(--text-link) !important; }
+
 /*!** Main chat window, link to message sender. *!*/
 a.c-message__sender_link { color: var(--text) !important; }
 

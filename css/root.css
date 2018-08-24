@@ -27,9 +27,12 @@ root {
 :root {
     /** Text colors. */
     --text:                 var(--darcula-text);
+    --text-link:            var(--darcula-string-text);
     --text-dark:            var(--darcula-comment-text);
     --text-light:           var(--darcula-number-text);
     --text-special:         var(--darcula-field-text);
+
+    /** Link colors. */
 
     /** Background colors. */
     --background:           var(--darcula-editor-background);
