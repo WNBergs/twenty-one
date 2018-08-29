@@ -1,5 +1,5 @@
 /** Special (debugging) colors. */
-root {
+:root {
     --debug-white: #ffffff;
     --debug-black: #000000;
 }
@@ -48,6 +48,9 @@ root {
     --background-input:     var(--darcula-project-selected-background);
     --background-sidebar:   var(--darcula-project-background);
 
+    /** Main chat area colors. */
+    --mainChat-background: var(--darcula-editor-background);
+
     /** Tag colors. */
     --tag-background:       var(--darcula-receiver-background);
     --tag-background-hover: var(--darcula-project-library-background);
@@ -55,8 +58,8 @@ root {
     --tag-text-hover:       var(--darcula-annotation-text);
 
     /** Divider colors. */
-    --divider-color:        var(--darcula-comment-text);
-    --divider-text:         var(--darcula-comment-text);
+    --divider-color:        var(--darcula-gutter-background);
+    --divider-text:         var(--darcula-gutter-background);
 
     /** Input colors. */
 }

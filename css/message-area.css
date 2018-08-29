@@ -1,5 +1,8 @@
 /** Main background */
-div.c-virtual_list__scroll_container { background-color: var(--background) !important; }
+div.c-virtual_list__scroll_container { background-color: var(--mainChat-background) !important; }
+
+/** Main background ("Only visible to you" messages) */
+div.c-message--ephemeral { background-color: var(--mainChat-background) !important; }
 
 /** Make hovered messages match background.  Maybe can be removed? */
 div.c-message:hover { background-color: var(--background) !important; }
